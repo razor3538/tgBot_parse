@@ -3,7 +3,7 @@ import requests
 import feedparser
 import psycopg2
 
-token = "1341285703:AAEYOAX5dFKK2Wfep5dJLgFzVri7E_oK4oQ"
+token = "Your token here"
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
